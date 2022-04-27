@@ -6,95 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="EduardoRuaChamorro" />
     <meta name="company" content="NunsysBootcamp" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+    <link rel="icon" href="https://www.svgrepo.com/show/416008/internet-media-network-10.svg" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- BOOTSTRAP LIBRARY -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+    <!-- IONICONS LIBRARY -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Home</title>
   </head>
   <body>
     <header>
       <nav>
         <!-- TOP BAR -->
-        <div class="navbar navbar-light bg-light pt-3 pb-3 ps-5 pe-5">
+        <section class="navbar navbar-light bg-light pt-3 pb-3 ps-5 pe-5">
           <div class="container-fluid">
             <a class="navbar-brand">
               <ion-icon name="call-outline"></ion-icon>
               +34 635 999 5418
             </a>
             <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                class="btn"
-                style="background-color: #cb171f"
-                type="submit"
-              >
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn" style="background-color: #cb171f" type="submit">
                 <ion-icon name="search-outline" style="color: white"></ion-icon>
               </button>
             </form>
           </div>
-        </div>
+        </section>
         <!-- NAVIGATION BAR -->
-        <div
-          class="navbar navbar-expand-lg navbar-light bg-white pt-4 pb-0 ps-5 pe-5"
-        >
+        <section class="navbar navbar-expand-lg navbar-light bg-white pt-4 pb-0 ps-5 pe-5">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img
-                src="https://www.svgrepo.com/show/416008/internet-media-network-10.svg"
-                alt=""
-                width="50"
-                height="50"
-              />
+              <img src="https://www.svgrepo.com/show/416008/internet-media-network-10.svg" alt="" width="50" height="50"/>
+              <a class="navbar-brand" href="#"><strong>Sairor</strong></a>
             </a>
-            <a class="navbar-brand" href="#"><strong>Sairor</strong></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a
-                    class="nav-link active fw-bold"
-                    style="color: #cb171f"
-                    aria-current="page"
-                    href="#"
-                    >HOME</a
-                  >
+                  <a class="nav-link active fw-bold" style="color: #cb171f" aria-current="page" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-bold" href="pricingBox.html"
-                    >PRICING BOX</a
-                  >
+                  <a class="nav-link fw-bold" href="pricingBox.html">PRICING BOX</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-bold" href="portfolio.html"
-                    >PORTFOLIO</a
-                  >
+                  <a class="nav-link fw-bold" href="portfolio.html">PORTFOLIO</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link fw-bold" href="contact.html">CONTACT</a>
@@ -102,222 +61,105 @@
               </ul>
             </div>
           </div>
-        </div>
+        </section>
       </nav>
     </header>
     <main class="bg-light">
       <!-- CARROUSEL -->
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide p-5 m-lg-5 m-md-5 m-sm-5 m-xs-5"
-        data-bs-ride="carousel"
-      >
+      <section id="carouselExampleCaptions" class="carousel slide p-5 m-lg-5 m-md-5 m-sm-5 m-xs-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="https://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div
-              class="carousel-caption d-none d-md-block img-fluid"
-              style="background-image: url(../img/caption-bg.png)"
-            >
+            <img src="https://res.cloudinary.com/simpleview/image/upload/v1574085889/clients/norway/bryggen_wharf_bergen_hordaland_fjord_norway_photo_florian_olbrechts_34ad36ea-f7bc-4150-b48b-af2c2c14628f.jpg" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block img-fluid" style="background-image: url(../img/caption-bg.png)">
               <h1>Bergen, Norway</h1>
               <p>Discover the paradise of the Scandinavian Fjords.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="https://images.alphacoders.com/806/thumb-1920-806121.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div
-              class="carousel-caption d-none d-md-block"
-              style="background-image: url(../img/caption-bg.png)"
-            >
+            <img src="https://images.alphacoders.com/806/thumb-1920-806121.jpg" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block" style="background-image: url(../img/caption-bg.png)">
               <h1>Praha, Czech Republic</h1>
               <p>The jewel of Central Europe.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/02/22/16455200722788.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div
-              class="carousel-caption d-none d-md-block"
-              style="background-image: url(../img/caption-bg.png)"
-            >
+            <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/02/22/16455200722788.jpg" class="d-block w-100" alt="..."/>
+            <div class="carousel-caption d-none d-md-block" style="background-image: url(../img/caption-bg.png)">
               <h1>Valencia, Spain</h1>
               <p>Dare to explore this wonderful city full of history.</p>
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-      <!-- DESCRIPTION -->
-      <div class="container-fluid">
-        <div class="row bg-white p-5 justify-content-around align-items-center">
+      </section>
+      <!-- MAIN DESCRIPTION -->
+      <section class="container-fluid">
+        <article class="row bg-white p-5 justify-content-around align-items-center">
           <div class="col-md-8">
-            <h2>
-              Awesome site template
-              <span style="color: #cb171f">corporate</span> business
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              dignissim, erat eget consectetur sagittis, eros nisi egestas
-              felis, eget porta nunc nisi euismod quis.
-            </p>
+            <h2>Awesome site template<span style="color: #cb171f"> corporate</span> business</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim, erat eget consectetur sagittis, eros nisi egestas felis, eget porta nunc nisi euismod quis.</p>
           </div>
-          <div class="col-md-3">
-            <button
-              class="btn"
-              style="background-color: #cb171f; color: white"
-              type="button"
-            >
-              Grab it now >
-            </button>
+          <div class="col-md-2">
+            <button class="btn" style="background-color: #cb171f; color: white" type="button">Grab it now</button>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </main>
     <footer>
-      <div class="container-fluid">
-        <div class="row bg-light p-5">
+      <section class="container-fluid">
+        <!-- CONTACT AND HELP LINKS -->
+        <article class="row bg-light p-5">
           <div class="col-md-3">
             <h5>Get in touch with us</h5>
             <strong>Sairor company Inc</strong>
-            <p>Sairor suite room V124, DB 91 Someplace 71745 Earth</p>
-            <p>(123) 456-7890 - (123) 555-7891 email@domainname.com</p>
+            <p>Sairor suite room V124, DB 91<br/>Someplace 71745 Earth<br/>(123) 456-7890 - (123) 555-7891<br/>email@domainname.com</p>
           </div>
           <div class="col-md-3">
             <h5>Information</h5>
-            <p>
-              Press release<br />
-              Terms and conditions<br />
-              Privacy policy<br />
-              Cookie policy<br />
-              Contact us<br />
-            </p>
+            <p>Press release<br/>Terms and conditions<br/>Privacy policy<br/>Cookie policy<br/>Contact us<br/></p>
           </div>
           <div class="col-md-3">
             <h5>Pages</h5>
-            <p>
-              Press release<br />
-              Terms and conditions<br />
-              Privacy policy<br />
-              Cookie policy<br />
-              Contact us<br />
-            </p>
+            <p>Press release<br/>Terms and conditions<br/>Privacy policy<br/>Cookie policy<br/>Contact us<br/></p>
           </div>
           <div class="col-md-3">
             <h5>Newsletter</h5>
-            <p>
-              Fill your email and sign up for monthly newsletter to keep
-              updated.
-            </p>
+            <p>Fill your email and sign up for monthly newsletter to keep updated.</p>
             <form class="d-flex">
               <input class="form-control me-2" type="email" />
-              <button
-                class="btn"
-                style="background-color: #cb171f; color: white"
-                type="submit"
-              >
-                Suscribe
-              </button>
+              <button class="btn" style="background-color: #cb171f; color: white" type="submit">Suscribe</button>
             </form>
           </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row bg-white p-5 justify-content-between">
+        </article>
+        <!-- COPYRIGHT AND SOCIAL NETWORK LINKS -->
+        <article class="row bg-white p-5 justify-content-between">
           <div class="col-md-4">
-            <p>&copy; Sairor company | All rights reserved</p>
-            <p>Designed by Eduardo Ruá Chamorro</p>
+            <p>&copy; 2022 Sairor company | All rights reserved</p>
+            <p>Designed with <ion-icon name="heart"></ion-icon> by Eduardo Ruá Chamorro</p>
           </div>
           <div class="col-md-3">
             <div class="d-flex justify-content-evenly m-3">
-              <a href="https://www.facebook.com/">
-                <ion-icon
-                  size="large"
-                  name="logo-facebook"
-                  style="color: #636060"
-                ></ion-icon>
-              </a>
-              <a href="https://www.twitter.com/">
-                <ion-icon
-                  size="large"
-                  name="logo-twitter"
-                  style="color: #636060"
-                ></ion-icon>
-              </a>
-              <a href="https://www.linkedin.com/">
-                <ion-icon
-                  size="large"
-                  name="logo-linkedin"
-                  style="color: #636060"
-                ></ion-icon>
-              </a>
-              <a href="https://www.pinterest.com/">
-                <ion-icon
-                  size="large"
-                  name="logo-pinterest"
-                  style="color: #636060"
-                ></ion-icon>
-              </a>
-              <a href="https://www.youtube.com/">
-                <ion-icon
-                  size="large"
-                  name="logo-youtube"
-                  style="color: #636060"
-                ></ion-icon>
-              </a>
+              <a href="https://www.facebook.com/"><ion-icon size="large" name="logo-facebook" style="color: #636060"></ion-icon></a>
+              <a href="https://www.twitter.com/"><ion-icon size="large" name="logo-twitter" style="color: #636060"></ion-icon></a>
+              <a href="https://www.linkedin.com/"><ion-icon size="large" name="logo-linkedin" style="color: #636060"></ion-icon></a>
+              <a href="https://www.pinterest.com/"><ion-icon size="large" name="logo-pinterest" style="color: #636060"></ion-icon></a>
+              <a href="https://www.youtube.com/"><ion-icon size="large" name="logo-youtube" style="color: #636060"></ion-icon></a>
             </div>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </footer>
   </body>
 </html>
