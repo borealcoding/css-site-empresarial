@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/_variables.scss"],"names":[],"mappings":"AAEA;EAAO;;;AAEP;EAAI;;;AAEJ;EACI;EACA;;;AAGJ;EACI,WCNa;;;ADSjB;EACI,WCTe;EDUf,OCbgB;;;ADgBpB;EACI,kBCrBY;EDsBZ,OCnBkB;;;ADsBtB;EAAuC,OChBtB;;;ADkBjB;EACI,kBC5BY;ED6BZ,OC1BkB;;;AD6BtB;EACI,kBChCc;EDiCd,OC/BkB;EDgClB","file":"style.css"}

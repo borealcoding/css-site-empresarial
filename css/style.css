@@ -1,3 +1,43 @@
-body {
-    color: #303030;
+html {
+  box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+.titleTextStyle {
+  font-size: 1.5em;
+}
+
+p[class*=featureTextStyle] {
+  font-size: 1.17em;
+  color: gray;
+}
+
+button[class*=buttonStyle] {
+  background-color: #CB171F;
+  color: #FFF;
+}
+
+ion-icon[class*=socialButtonStyle] {
+  color: #636060;
+}
+
+p[class*=highlightPlanStyle] {
+  background-color: #CB171F;
+  color: #FFF;
+}
+
+a[class*=pricePlanStyle] {
+  background-color: #212529;
+  color: #FFF;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=style.css.map */

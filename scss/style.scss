@@ -1,0 +1,37 @@
+@use 'variables';
+
+html { box-sizing: border-box; }
+
+a { text-decoration: none; }
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.titleTextStyle {
+    font-size: variables.$title-fontSize;
+}
+
+p[class*="featureTextStyle"] {
+    font-size: variables.$feature-fontSize;
+    color: variables.$feature-fontColor;
+}
+
+button[class*="buttonStyle"] {
+    background-color: variables.$primary-color;
+    color: variables.$secondary-fontColor;
+}
+
+ion-icon[class*="socialButtonStyle"] { color: variables.$social-bgColor; }
+
+p[class*="highlightPlanStyle"] {
+    background-color: variables.$primary-color;
+    color: variables.$secondary-fontColor;
+}
+
+a[class*="pricePlanStyle"] {
+    background-color: variables.$secondary-color;
+    color: variables.$secondary-fontColor;
+    pointer-events: none;
+}
